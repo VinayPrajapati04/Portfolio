@@ -1,0 +1,329 @@
+#main{
+    background-color: rgb(22,27,34,255);
+    width: 100% ;
+    height: 100%;
+    padding: 25px;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+#navbar {
+    background-color: rgba(48,54,61,255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+    color: white ;
+    text-align: center;
+   
+   margin-top: -25px;
+margin-left: -20px;
+margin-right: -20px;
+
+}
+#heading{
+  
+    font-family:'Brush Script MT', cursive ;
+    margin-left: 70px;
+      
+}
+#leftSide{
+
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-family:Choco cooky;
+}
+#RightSide{
+    
+    margin-left: 100px;
+}
+/* #ResumeBtn{
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    font: bold;
+} */
+
+/*  first section for landing page */
+
+#FirstSection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 250px;
+    color: whitesmoke;
+    margin-top: 100px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+#FirstSectionHeading{
+   
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    
+}
+#btnLinkIcon{
+    width: 17px;
+    height: 17px;
+    margin-right: -20;
+}
+#resumeBtn{
+    width: 110px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+  
+}
+#resumebtn:hover{
+    background-color: rgb(228, 212, 212);
+}
+#profile_image{
+    width: 300px;
+}
+#profile_image>img{
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    width: 400px;
+    height: 350px;
+    align-items: center;;
+}
+/* Section Section -- About me */
+
+#aboutHeading{  
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    font-size: 50px;
+}
+#about{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  
+}
+#aboutDescription{
+
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    width: 500px;
+}
+#aboutImage{
+    height: 300px;
+    width: 300;
+    border-radius: 10px;
+}
+
+/*Third Section - Skill*/
+#skillsHeading{
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+
+}
+#headingFrontend{
+    color: white;          
+    margin-bottom: 1px;
+    text-align: center;
+}
+#skillsSection{
+    color: white;
+    margin-left: 380px;
+    margin-right: 400px;     
+}
+#FrontEndIconsImages{
+    width: 150px;
+    margin-left: 30px;
+}
+#frontend_div{
+    display: flex;
+}
+#frontend_div_div{
+    text-align: center;
+}
+#HeadingTools{
+    color: white;
+    margin-bottom: 1px;
+    text-align: center;
+}
+#ToolsElement{
+    color: white;
+    margin-left: 500px;
+    margin-right: 450px;
+    display: flex;
+    text-align: center;
+
+}
+#ToolsImage{
+    width: 150px;
+    margin-left: 30px;
+}
+/* fourth section - Projects */
+#projectHeading{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    /* border: 1px solid red; */
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+#projectSection{     
+    height: 500px;
+    /* border-top: 500px; */
+}
+/* Project div */
+#project_1{
+   
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid rgb(125, 125, 153);
+    border-radius: 20px;
+    height: 450px;
+   
+    
+ }
+
+ #OptimizlyImage{
+    width: 450px;
+    height: 50%;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+
+ }
+ #OptimizlyText{
+    width: 400px;
+    word-spacing: 5px;
+    line-height: 1.2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ #btnProjects{
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ #btnProjectLinkImage{
+    width: 17px;
+    margin-top: 2px;
+ }
+
+ /* GitHub Status */
+
+ #headingGitHub{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+#Git_Calender{
+    text-align: center;
+    
+    height: 370px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#GitCalenderImage{
+    width: 600px;
+    border-radius: 20px;
+}
+#Git_contribution{
+    text-align: center;
+
+}
+#Git_start{
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* Let's connect */
+
+#LetConnetsHeading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    border-top: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#contect_div{
+     text-align: center;
+     color: white;
+
+}
+#connect_div_div{
+ 
+    border: 1px solid rgb(177, 145, 145);;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+#Contectheading_2{
+    color: white;
+    text-align: center;
+    margin-top:-50px;
+}
+#callimage{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#txtContect{
+    margin-right: 10px;
+}
+#connect_div_div_gmail{
+    border: 1px solid rgb(177, 145, 145);;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+#connect_div_div_location{
+    border: 1px solid rgb(177, 145, 145);;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    margin-top: 50px;   
+
+}
+  
