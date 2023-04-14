@@ -1,0 +1,76 @@
+
+#AboutMe{
+border: 1px solid  #161b22;
+margin-top: 30px;
+height: 650px;
+
+}
+
+#headingDiv{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#heading{
+font-weight: bold;
+font-size: 40px;
+
+}
+
+#containerAbout{
+    border: 1px solid rgb(77, 75, 75);
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px ;
+   
+}
+#aboutTxtDiv{
+  /* border: 3px solid rgb(192, 23, 226); */
+  width: 370px;
+  height: 250px;
+  margin: auto;
+  margin-right: 30px;
+}
+
+#AboutTxtone{
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: 10px;
+    text-align: justify;
+    text-justify: inter-word
+    
+}
+
+#AboutTxt{
+line-height: 20px;
+text-align: center;
+margin: auto;
+margin-top: 10px;
+margin-left: 10px;
+/* letter-spacing: 0.5px; */
+text-align: justify;
+text-justify: inter-word;
+
+}
+
+#AboutImgDiv{
+    /* border: 3px solid rgb(29, 26, 189); */
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+#AboutImg{
+width:390px;
+height: 300px;
+border-radius: 20px;
+
+}

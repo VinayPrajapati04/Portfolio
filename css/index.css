@@ -1,0 +1,63 @@
+#Home{
+    /* border: 1px solid red; */
+    height: 600px;
+}
+
+#homeDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 1px solid rgb(29, 230, 72); */
+    margin: auto;
+    margin-top: 80px;
+}
+#TextDiv{
+ text-align: center;
+ margin: auto;
+ width: 400px;
+ /* border: 1px solid rgb(8, 121, 150); */
+}
+#txtOne{
+    font-size: 40px;
+}
+#txtTwo{
+    font-size: 33px;
+    margin-top: 20px;
+}
+#txtThree{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#btnResume{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #30363d;
+}
+
+#btnResume:hover{
+    background-color: rgb(62, 67, 77);
+}
+
+
+#ProfileImgDiv{
+/* border: 1px solid red; */
+margin: auto;
+
+}
+
+#profileImg{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#btnLinkImg{
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    background-color: #30363d;
+
+}

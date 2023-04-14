@@ -1,0 +1,254 @@
+@media (max-width:1048px) {
+
+    /* label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 50px;
+    }
+    nav a{
+        font-size: 17px;
+    } */
+    
+}
+@media (max-width:909px){
+
+
+    #homeDiv{
+       
+        border: 2px solid red;
+        width: 500px;
+    }
+    #txtOne{
+        font-size: 20px;
+    }
+    #txtTwo{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #txtThree{
+        font-size: 15px;
+    }
+    #btnResume{
+
+        width: 100px;
+    }#btnLinkImg{
+        width: 5px;
+        height: 5px;
+    }
+    #profileImg{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* aboutMe */
+
+    #AboutMe{
+        width: 500px;
+    }
+
+    #containerAbout{
+        border: 3px solid rgb(219, 16, 16);
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 20px ;
+       
+    }
+    #aboutTxtDiv{
+        /* border: 3px solid rgb(192, 23, 226); */
+        width: 350px;
+        height: 300px;
+        margin: auto;
+        margin-right: 30px;
+      }
+    #AboutTxtone{
+        /* line-height: 20px; */
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-left: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 13px;
+
+        
+    }
+    #AboutTxt{
+        /* line-height: 20px; */
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 13px;
+        /* letter-spacing: 0.5px; */
+        text-align: justify;
+        text-justify: inter-word
+        
+        }
+        #AboutImg{
+            width:250px;
+            height: 300px;
+            border-radius: 20px;
+            
+            }
+
+
+            /* skills */
+
+            #Skills{
+                width: 500px;
+                height: 550px;
+                margin: auto;
+                margin-top: 100px;
+                border: 5px solid #8db6f0;
+                
+                }
+
+    #containerSkill{
+        /* border: 1px solid rgb(180, 12, 12); */
+        width: 400px;
+       
+        }
+        #ImgDiv{
+        width: 70px;
+       
+        }
+        #SkillImg{
+        width: 70px;
+        height: 70px;
+        }
+
+
+        /* Projects */
+
+        #Projects{
+            width: 400px;
+        }
+
+        #projectContainerDiv{
+            border: 1px solid rgb(109, 107, 107);
+            width: 500px;
+           
+            
+        }
+        #projectContainerDivOne{
+            /* border: 2px solid rgb(9, 134, 25); */
+            width: 500px;
+            height: 430px;
+        
+        }
+        #projectContainerDivfour{
+            /* border: 2px solid rgb(21, 177, 224); */
+            width: 500px;
+        
+        }
+        #projectName{
+            /* border: 2px solid rgb(216, 106, 2); */
+            width: 100px;
+            font-size: 20px;
+          
+        }
+        #projectImgDiv{
+            margin: auto;
+        }
+        #projectImg{
+            width:200px;
+            height: 200px;
+         
+        }
+        
+        #projectContTxtDiv{
+            /* border: 2px solid rgb(168, 8, 168); */
+            width: 450px;
+            height: 380px;
+            
+        }
+        #projectNameDiv{
+            /* border: 2px solid rgb(216, 106, 2); */
+            width: 180px;
+            text-align:left;
+            margin-bottom: -10px;
+            margin-left: 50px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        #projectTxtdiv{
+            /* border: 2px solid gray; */
+            width: 250px;
+        }
+        #projectDetails{
+        
+            margin-top: 8px;
+           font-size: 13px;
+           
+        }
+        #btnProjects{
+            width: 80px;
+            height: 30px;
+            font-size: 13px;
+           
+
+        }
+        #btnProjectLinkImage{
+            width: 7px;
+            height: 7px;
+        
+        }
+        #projectDivBtn{
+            /* border: 1px solid red; */
+            margin: auto;
+            width: 180px;
+        
+            margin-top: 20px;
+            
+            
+        }
+
+        /* github */
+        #GitHub{
+            width: 500px;
+            border: 1px solid red;
+        }
+        #ImgGit_Calender{
+            width: 400px;
+        
+        }
+        #Git_contribution{
+            width: 400px;
+        }
+        
+        #gitImgCont{
+            width: 400px;
+            /* height: 400px; */
+           
+        }
+        #gitImgStats{
+            width: 350px;
+          
+
+        
+        }
+    
+        #Git_stats{
+    
+            /* border: 1px solid rgb(212, 132, 12); */
+            margin: auto;
+            margin-top: 100px;
+            width: 300px;
+        }
+    
+        #GetInTouch{
+
+            height: 500px;
+            width: 500px;
+        order: 5px solid rgb(22, 202, 103);
+            
+           
+        }
+
+
+}
