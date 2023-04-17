@@ -40,8 +40,7 @@ function GetResume() {
       window.location.href="https://github.com/VinayPrajapati04/APNA-STORE"
       }
 
-
-                  // function for NordStrom
+      // function for NordStrom
 
 function NordStromClickDeploy() {
 

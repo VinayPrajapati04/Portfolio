@@ -109,13 +109,14 @@
     margin-top: 20px;
     margin-left: 20px;
     
+    
 }
 #btnProjects{
     width: 100px;
     height: 40px;
     border-radius: 30px;
     font-size: 15px;
-   
+    color:white;
     margin: auto;
     background-color: #30363d;
 }
