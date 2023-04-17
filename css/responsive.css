@@ -17,6 +17,7 @@
 
     #homeDiv{
         width: 300px;
+        margin-top: 200px;
     }
     #TextDiv{
         width: 120px;
@@ -71,8 +72,10 @@
 
     #AboutMe{
         width: 300px;
-        /* border: 3px solid green; */
+        height: auto;
         margin: auto;
+        margin-top: 200px;
+       
     }
 
     #containerAbout{
@@ -84,16 +87,17 @@
         width: 300px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 20px ;
-        height: 560px;
-        /* border: 1px solid red; */
+        
        
     }
     #aboutTxtDiv{
         /* border: 3px solid rgb(192, 23, 226); */
         width: 150px;
-        height: 500px;
+        height: auto;
         margin: auto;
-        margin-right: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
       }
     #AboutTxtone{
         /* line-height: 20px; */
