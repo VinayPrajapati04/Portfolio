@@ -42,6 +42,25 @@
     background-color: rgb(62, 67, 77);
 }
 
+#ContectImageIcon_div_{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-left: -30px;
+    
+}
+
+#ContectIconImg{
+ width: 40px;
+ margin-top: 30px;
+ margin-left: 30px;
+}
+#linked{
+    border: none;
+}
+
+
+
 
 #ProfileImgDiv{
 /* border: 1px solid red; */
