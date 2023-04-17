@@ -54,11 +54,17 @@
  width: 40px;
  margin-top: 30px;
  margin-left: 10px;
+
 }
-#linked{
-    border: none;
+#ContectIconImg_github{
+    width: 33px;
+    margin-bottom: 5px;
+   
 }
 
+#linkedImg{
+border: none;
+}
 
 
 

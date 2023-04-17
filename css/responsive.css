@@ -17,7 +17,8 @@
 
     #homeDiv{
         width: 300px;
-        margin-top: 200px;
+        margin-top: 120px;
+        /* border: 2px solid red; */
     }
     #TextDiv{
         width: 120px;
@@ -32,19 +33,24 @@
         margin-top: 15px;
     }
     #txtThree{
-        font-size: 10px;
+        font-size: 12px;
     }
     #btnResume{
 
         width: 100px;
         height: 40px;
-        border-radius: none;
-        font-size: 10px;
+        /* border-radius: none; */
+        font-size: 12px;
+        text-align: center;
         
     }
     #btnLinkImg{
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 10px;
+    }
+    #ContectIconImg{
+        width: 25px;
+        height: 25px;
     }
     #ContectImageIcon_div_{
         /* border: 1px solid rgb(12, 233, 12); */
@@ -53,11 +59,12 @@
         margin-top: -20px;
        
     }
-    #linkedImg{
-        width:5px;
-        height: 5px;
- 
+    #ContectIconImg_github{
+        width: 21px;
+        height: 21px;
+        margin-bottom: 3px;
     }
+ 
     #profileImg{
         width: 150px;
         height: 150px;
@@ -92,7 +99,7 @@
     }
     #aboutTxtDiv{
         /* border: 3px solid rgb(192, 23, 226); */
-        width: 150px;
+        width: 400px;
         height: auto;
         margin: auto;
         margin-right: 20px;
@@ -106,7 +113,7 @@
         margin-left: 10px;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 10px;  
+        font-size: 13px;  
     }
     #AboutTxt{
         /* line-height: 20px; */
@@ -124,8 +131,8 @@
             height: auto;
         }
         #AboutImg{
-            width:150px;
-            height: 150px;
+            width:120px;
+            height: 120px;
             border-radius: 20px;
             
             }
@@ -162,10 +169,11 @@
     #Projects{
         width: 300px;
         /* border: 2px solid red; */
+        height: auto;
         margin: auto;
     }
     #projectheadingDiv{
-        font-size: 15px;
+        font-size: 18px;
        
     }
 
@@ -189,7 +197,8 @@
     #projectName{
         /* border: 2px solid rgb(216, 106, 2); */
         width: 100px;
-        font-size: 20px;
+        font-size: 18px;
+        margin-top: 15px;
         
     }
     #projectImgDiv{
@@ -226,7 +235,7 @@
     #projectDetails{
     
         margin-top: 8px;
-        font-size: 10px;
+        font-size: 14px;
         
     }
     #btnProjects{
@@ -296,10 +305,14 @@
     }
 
     #GetInTouch{
-        /* border: 2px solid white; */
+        
         width: 300px;
         margin: auto;
+        height: 900px;
+        /* margin-top: -100px; */
+       
     }
+
 
 
 
