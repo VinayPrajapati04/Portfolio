@@ -8,7 +8,7 @@ function GetResume() {
 // function for optimizely
    function optimizelyClickDeploy() {
 
-    window.location.href="https://funny-kataifi-02e4e4.netlify.app/index.html"
+    window.location.href="https://optimizely-com-clone.vercel.app/"
  }
 
    function optimizelyClickGithub() {
@@ -32,7 +32,7 @@ function GetResume() {
 
   function ApnaCartClickDeploy() {
 
-      window.location.href="https://admirable-monstera-8dc834.netlify.app/"
+      window.location.href="https://apna-cart-three.vercel.app/"
       }
           
   function ApnaCartClickGithub() {
@@ -45,7 +45,7 @@ function GetResume() {
 
 function NordStromClickDeploy() {
 
-  window.location.href="https://melodic-stroopwafel-d5ba73.netlify.app/"
+  window.location.href="https://nord-strom-project.vercel.app/"
   }
   
   function NordStromClickGithub() {

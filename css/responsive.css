@@ -16,53 +16,82 @@
 
 
     #homeDiv{
-       
-        border: 2px solid red;
-        width: 500px;
+        width: 300px;
+    }
+    #TextDiv{
+        width: 120px;
+        height: 210px;
+        /* border: 3px solid greenyellow; */
     }
     #txtOne{
-        font-size: 20px;
+        font-size: 15px;
     }
     #txtTwo{
-        font-size: 15px;
-        margin-top: 20px;
+        font-size: 10px;
+        margin-top: 10px;
     }
     #txtThree{
-        font-size: 15px;
+        font-size: 10px;
     }
     #btnResume{
 
         width: 100px;
-    }#btnLinkImg{
+        height: 40px;
+        border-radius: none;
+        font-size: 10px;
+        
+    }
+    #btnLinkImg{
         width: 5px;
         height: 5px;
     }
+    #ContectImageIcon_div_{
+        /* border: 1px solid rgb(12, 233, 12); */
+        width: auto;
+        height: 10px;
+        margin-top: -20px;
+       
+    }
+    #linkedImg{
+        width:5px;
+        height: 50px;
+ 
+    }
     #profileImg{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
+        
     }
 
     /* aboutMe */
 
+    #heading{
+        font-size: 30px;
+    }
+
     #AboutMe{
-        width: 500px;
+        width: 300px;
+        /* border: 3px solid green; */
+        margin: auto;
     }
 
     #containerAbout{
-        border: 3px solid rgb(219, 16, 16);
+        /* border: 3px solid rgb(219, 16, 16); */
         margin: auto;
-        margin-top: 70px;
+        margin-top: -50px;
         display: flex;
         justify-content: space-between;
-        width: 500px;
+        width: 300px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 20px ;
+        height: 560px;
+        /* border: 1px solid red; */
        
     }
     #aboutTxtDiv{
         /* border: 3px solid rgb(192, 23, 226); */
-        width: 350px;
-        height: 300px;
+        width: 150px;
+        height: 500px;
         margin: auto;
         margin-right: 30px;
       }
@@ -73,9 +102,7 @@
         margin-left: 10px;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 13px;
-
-        
+        font-size: 10px;  
     }
     #AboutTxt{
         /* line-height: 20px; */
@@ -89,28 +116,31 @@
         text-justify: inter-word
         
         }
+        #AboutImgDiv{
+            height: auto;
+        }
         #AboutImg{
-            width:250px;
-            height: 300px;
+            width:150px;
+            height: 150px;
             border-radius: 20px;
             
             }
 
 
-            /* skills */
+    /* skills */
 
-            #Skills{
-                width: 500px;
-                height: 550px;
-                margin: auto;
-                margin-top: 100px;
-                border: 5px solid #8db6f0;
-                
-                }
+    #Skills{
+        width: 300px;
+        height: 550px;
+        margin: auto;
+        margin-top: 100px;
+        /* border: 5px solid #8db6f0; */
+        
+        }
 
     #containerSkill{
         /* border: 1px solid rgb(180, 12, 12); */
-        width: 400px;
+        width: 300px;
        
         }
         #ImgDiv{
@@ -123,132 +153,149 @@
         }
 
 
-        /* Projects */
+        /* Projects */  
 
-        #Projects{
-            width: 400px;
-        }
+    #Projects{
+        width: 300px;
+        /* border: 2px solid red; */
+        margin: auto;
+    }
+    #projectheadingDiv{
+        font-size: 15px;
+       
+    }
 
-        #projectContainerDiv{
-            border: 1px solid rgb(109, 107, 107);
-            width: 500px;
-           
-            
-        }
-        #projectContainerDivOne{
-            /* border: 2px solid rgb(9, 134, 25); */
-            width: 500px;
-            height: 430px;
+    #projectContainerDiv{
+        width: 300px;
+        /* border: 1px solid rgb(158, 226, 33); */
+        height: auto;
         
-        }
-        #projectContainerDivfour{
-            /* border: 2px solid rgb(21, 177, 224); */
-            width: 500px;
-        
-        }
-        #projectName{
-            /* border: 2px solid rgb(216, 106, 2); */
-            width: 100px;
-            font-size: 20px;
-          
-        }
-        #projectImgDiv{
-            margin: auto;
-        }
-        #projectImg{
-            width:200px;
-            height: 200px;
-         
-        }
-        
-        #projectContTxtDiv{
-            /* border: 2px solid rgb(168, 8, 168); */
-            width: 450px;
-            height: 380px;
-            
-        }
-        #projectNameDiv{
-            /* border: 2px solid rgb(216, 106, 2); */
-            width: 180px;
-            text-align:left;
-            margin-bottom: -10px;
-            margin-left: 50px;
-            margin-top: 20px;
-            font-size: 15px;
-        }
-        #projectTxtdiv{
-            /* border: 2px solid gray; */
-            width: 250px;
-        }
-        #projectDetails{
-        
-            margin-top: 8px;
-           font-size: 13px;
-           
-        }
-        #btnProjects{
-            width: 80px;
-            height: 30px;
-            font-size: 13px;
-           
-
-        }
-        #btnProjectLinkImage{
-            width: 7px;
-            height: 7px;
-        
-        }
-        #projectDivBtn{
-            /* border: 1px solid red; */
-            margin: auto;
-            width: 180px;
-        
-            margin-top: 20px;
-            
-            
-        }
-
-        /* github */
-        #GitHub{
-            width: 500px;
-            border: 1px solid red;
-        }
-        #ImgGit_Calender{
-            width: 400px;
-        
-        }
-        #Git_contribution{
-            width: 400px;
-        }
-        
-        #gitImgCont{
-            width: 400px;
-            /* height: 400px; */
-           
-        }
-        #gitImgStats{
-            width: 350px;
-          
-
-        
-        }
+    }
+    #projectContainerDivOne{
+        /* border: 2px solid rgb(224, 38, 69); */
+        width: 300px;
+        height: auto;
     
-        #Git_stats{
+    }
+    #projectContainerDivfour{
+        /* border: 2px solid rgb(21, 177, 224); */
+        width:300px;
     
-            /* border: 1px solid rgb(212, 132, 12); */
-            margin: auto;
-            margin-top: 100px;
-            width: 300px;
-        }
+    }
+    #projectName{
+        /* border: 2px solid rgb(216, 106, 2); */
+        width: 100px;
+        font-size: 20px;
+        
+    }
+    #projectImgDiv{
+        margin: auto;
+    }
+    #projectImg{
+        width:100px;
+        height: 100px;
+        
+    }
     
-        #GetInTouch{
+    #projectContTxtDiv{
+        /* border: 2px solid rgb(168, 8, 168); */
+        width: 150px;
+        height:auto;
+        margin: auto;
+        
+    }
+    #projectNameDiv{
+        /* border: 2px solid rgb(216, 106, 2); */
+        width: 100px;
+        text-align:left;
+        margin-bottom: -10px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 10px;
+        margin: auto;
+    }
+    #projectTxtdiv{
+        /* border: 2px solid gray; */
+        width: 140px;
+        margin: auto;
+    }
+    #projectDetails{
+    
+        margin-top: 8px;
+        font-size: 10px;
+        
+    }
+    #btnProjects{
+        width: 60px;
+        height: 30px;
+        font-size: 8px;
+        margin-left: 5px;
+        
 
-            height: 500px;
-            width: 500px;
-        order: 5px solid rgb(22, 202, 103);
-            
-           
-        }
+    }
+    #btnProjectLinkImage{
+        width: 7px;
+        height: 7px;
+    
+    }
+    #projectDivBtn{
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 140px;
+    
+        margin-top: 20px;
+        
+        
+    }
+
+    /* github */
+    #GitHub{
+        width: 300px;
+        /* border: 1px solid rgb(17, 228, 52); */
+        margin: auto;
+    }
+
+    #Git_Calender{
+        width: 300px;
+    }
+    #ImgGit_Calender{
+        width: 300px;
+    
+    }
+    #Git_contribution{
+        width: 300px;
+        
+    }
+    
+    #gitImgCont{
+        width: 300px;
+        /* height: 400px; */
+        
+    }
+    #Git_stats{
+        /* border: 4px solid rgb(120, 247, 46); */
+        width: 500px;
+        margin: auto;
+    }
+    #gitImgStats{
+        width: 100%;
+        margin: auto;
+    }
+
+    #Git_stats{
+
+        /* border: 1px solid rgb(212, 132, 12); */
+        margin: auto;
+        margin-top: 100px;
+        width: 300px;
+    }
+
+    #GetInTouch{
+        /* border: 2px solid white; */
+        width: 300px;
+        margin: auto;
+    }
+
 
 
 }
