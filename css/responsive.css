@@ -13,61 +13,75 @@
     
 }
 @media (max-width:909px){
-
+    #Home{
+        /* border: 1px solid rgb(245, 239, 239); */
+        height: auto;
+    }
 
     #homeDiv{
-        width: 300px;
-        margin-top: 120px;
+        width: auto;
+        margin-top: 70px;
         /* border: 2px solid red; */
     }
     #TextDiv{
         width: 120px;
-        height: 210px;
-        /* border: 3px solid greenyellow; */
+        height: auto;
     }
     #txtOne{
         font-size: 15px;
+        margin:15px
     }
     #txtTwo{
         font-size: 15px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     #txtThree{
         font-size: 12px;
+
     }
     #btnResume{
-
         width: 100px;
         height: 40px;
-        /* border-radius: none; */
+        border-radius: none;
         font-size: 12px;
         text-align: center;
-        
+        margin-top: 10px;
+  
+    }
+    #btnResume:hover{
+        background-color: rgb(62, 67, 77);
     }
     #btnLinkImg{
         width: 10px;
         height: 10px;
+       
     }
     #ContectIconImg{
         width: 25px;
         height: 25px;
     }
     #ContectImageIcon_div_{
-        /* border: 1px solid rgb(12, 233, 12); */
+    
         width: auto;
-        height: 10px;
-        margin-top: -20px;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom:50px
        
     }
     #ContectIconImg_github{
         width: 21px;
         height: 21px;
-        margin-bottom: 3px;
+        
+    }
+    #ProfileImgDiv{
+        /* border: 1px solid red; */
+        margin:auto;
+        margin-top: -5px;
     }
  
     #profileImg{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height:200px;
         
     }
 
@@ -75,83 +89,88 @@
 
     #heading{
         font-size: 30px;
+        
     }
+
 
     #AboutMe{
-        width: 300px;
+        width: auto;
         height: auto;
         margin: auto;
-        margin-top: 200px;
+        /* border: 1px solid red; */
        
     }
+    /* *,body,html{
+        border: 2px solid red;
+    } */
 
     #containerAbout{
-        /* border: 3px solid rgb(219, 16, 16); */
+        /* border: 3px solid greenyellow; */
         margin: auto;
-        margin-top: -50px;
         display: flex;
-        justify-content: space-between;
-        width: 300px;
+        flex-direction: column;
+        width: auto;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-        border-radius: 20px ;
-        
-       
+        border-radius: 20px ; 
+        margin-top: -50px; 
     }
     #aboutTxtDiv{
-        /* border: 3px solid rgb(192, 23, 226); */
-        width: 400px;
+        /* border: 2px solid white; */
+        width: auto;
         height: auto;
         margin: auto;
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;;
         margin-top: 10px;
         margin-bottom: 20px;
       }
     #AboutTxtone{
-        /* line-height: 20px; */
+        line-height: 20px;
         letter-spacing: 0.5px;
         text-align: center;
         margin-left: 10px;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 13px;  
+        font-size: 17px;  
     }
     #AboutTxt{
-        /* line-height: 20px; */
+        line-height:25px;
         text-align: center;
         margin: auto;
         margin-top: 10px;
         margin-left: 10px;
-        font-size: 13px;
+        font-size: 17px;
         /* letter-spacing: 0.5px; */
         text-align: justify;
         text-justify: inter-word
         
         }
         #AboutImgDiv{
+            /* border: 1px solid red; */
+            width: auto;
             height: auto;
         }
         #AboutImg{
-            width:120px;
-            height: 120px;
-            border-radius: 20px;
-            
+            width:100%;
+            border-radius:  0px 0px 20px 20px;
             }
 
 
     /* skills */
 
     #Skills{
-        width: 300px;
-        height: 550px;
-        margin: auto;
-        margin-top: 100px;
+        width: auto;
+        height: 450px;
+        margin: auto; 
         /* border: 5px solid #8db6f0; */
         
         }
 
     #containerSkill{
         /* border: 1px solid rgb(180, 12, 12); */
-        width: 300px;
+        width: auto;
+        margin-top: 15px;
+
        
         }
         #ImgDiv{
