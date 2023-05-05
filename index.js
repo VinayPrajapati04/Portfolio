@@ -2,7 +2,7 @@
 
 function GetResume() {
     
-    window.location.href="./document/FinalVinayResume.pdf"
+    window.location.href="./document/VinayResume.pdf"
     }
 
 // function for optimizely

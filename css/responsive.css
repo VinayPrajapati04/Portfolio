@@ -183,11 +183,11 @@
         }
 
 
+        
+
         /* Projects */  
 
-        /* *,body,html{
-            border: 1px solid red;
-        } */
+        
 
     #Projects{
         width: auto;
@@ -265,23 +265,23 @@
 
 
     #btnProjects{
-        width: 60px;
-        height: 30px;
-        font-size: 8px;
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
         margin-left: 5px;
         /* border: 2px solid red; */
         
 
     }
     #btnProjectLinkImage{
-        width: 7px;
-        height: 7px;
+        width: 12px;
+        height: 12px;
     
     }
     #projectDivBtn{
         /* border: 1px solid red; */
         margin: auto;
-        width: 140px;
+        width: 250px;
         margin-top: 20px;
         margin-bottom: 20px;
         
