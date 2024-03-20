@@ -40,6 +40,23 @@ function GetResume() {
       window.location.href="https://github.com/VinayPrajapati04/APNA-STORE"
       }
 
+      // function for MovieStar website
+
+
+  function MovieStarCartClickDeploy() {
+
+    window.location.href="https://mini-project-3rd-year.vercel.app//"
+    }
+        
+function MovieStarClickGithub() {
+    
+    window.location.href="https://github.com/VinayPrajapati04/MiniProject_3rd_Year"
+    }
+
+
+
+
+
       // function for NordStrom
 
 function NordStromClickDeploy() {
