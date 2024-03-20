@@ -2,7 +2,7 @@
 
 function GetResume() {
     
-    window.location.href="./document/VinayResume.pdf"
+    window.location.href="https://drive.google.com/file/d/1YMoacJRh9lXASvOKlMmDqhyVGc6tsEyU/view?usp=sharing"
     }
 
 // function for optimizely
@@ -54,10 +54,7 @@ function MovieStarClickGithub() {
     }
 
 
-
-
-
-      // function for NordStrom
+  // function for NordStrom
 
 function NordStromClickDeploy() {
 
