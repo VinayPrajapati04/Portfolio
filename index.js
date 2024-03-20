@@ -65,3 +65,17 @@ function NordStromClickDeploy() {
       
       window.location.href="https://github.com/srock2580/red-sail-4113"
   }
+
+
+
+    // function for AVNICOMPUTER SOLUTION
+
+function AvnicomputerClickDeploy() {
+
+    window.location.href="https://www.avnicomputersolution.com/"
+    }
+    
+    function AvnicomputerClickGithub() {
+        
+        window.location.href="https://github.com/VinayPrajapati04/AvniComputerSolutionNew"
+    }
