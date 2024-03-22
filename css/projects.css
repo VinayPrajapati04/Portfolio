@@ -1,6 +1,8 @@
 #Projects{
-    height: 2650px;
+    /* height: 2650px; */
+
     margin-top: 30px;
+    height: auto;
     /* border: 5px solid rgb(26, 29, 212); */
     border: 5px solid #161b22;
 }
