@@ -10,17 +10,22 @@
     nav a{
         font-size: 17px;
     } */
+     .projects{
+        border: 2px solid red;
+     }
     
 }
-@media (max-width:909px){
+@media all  and (min-width:324px) and (max-width:767px){
     #Home{
         /* border: 1px solid rgb(245, 239, 239); */
         height: auto;
+        width: 90%;
     }
 
     #homeDiv{
-        width: auto;
+        width: 90%;
         margin-top: 70px;
+        
         /* border: 2px solid red; */
     }
     #TextDiv{
@@ -178,7 +183,7 @@
     #containerSkill{
         /* border: 1px solid rgb(180, 12, 12); */
         width: auto;
-        margin-top: 20px;
+        margin-top: 50px;
 
        
         }
@@ -202,9 +207,11 @@
         width: auto;
         height: auto;
         margin: auto;
-        /* border: 2px solid red; */
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 200px;
+        width: 85%;
+        border: 2px solid red;
     }
     #projectheadingDiv{
         font-size: 18px;
